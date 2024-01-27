@@ -6,12 +6,11 @@ export default function Home() {
     <>
       <Head>
         <meta property="og:title" content="Frame" />
-        <meta property="og:image" content={`${BASE_URL}/question.jpg`} />
+        <meta property="og:image" content={`${BASE_URL}/TITLE.png`} />
         <meta property="fc:frame" content="vNext" />
-        <meta property="fc:frame:image" content={`${BASE_URL}/question.jpg`} />
-        <meta property="fc:frame:button:1" content="Yes" />
-        <meta property="fc:frame:button:2" content="No" />
-        <meta property="fc:frame:post_url" content={`${BASE_URL}/api/post`} />
+        <meta property="fc:frame:image" content={`${BASE_URL}/TITLE.png`} />
+        <meta property="fc:frame:button:1" content="Start Judging" />
+        <meta property="fc:frame:post_url" content={`${BASE_URL}/api/post?slide=1`} />
       </Head>
     </>
   )
